@@ -13,6 +13,7 @@ const LosePage = ({params}: {params: {id: number}}) => {
     setTimeout(() => {wrongAudio?.play()}, 100)
   }, [])
 
+
   return (
     <CardWrapper
       headerLabel='Вы проиграли!'
